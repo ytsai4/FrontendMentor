@@ -1,7 +1,6 @@
 # FrontendMentor
 
-These are solutions to [challenges on Frontend Mentor](https://www.frontendmentor.io/challenges)
-Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+These are solutions to [challenges on Frontend Mentor](https://www.frontendmentor.io/challenges). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
