@@ -5,30 +5,30 @@
   box-sizing: border-box;
 }
 
-body div.container {
+body main div.container {
   background-color: hsl(212, 45%, 89%);
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-body div.container section.card {
+body main div.container section.card {
   border-radius: 1rem;
   width: 330px;
-  height: 550px;
+  height: 500px;
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
 }
-body div.container section.card img {
+body main div.container section.card img {
   border-radius: 0.5rem;
   width: 90%;
   margin: 5%;
   flex: 0 0 auto;
 }
-body div.container section.card section.text {
+body main div.container section.card section.text {
   margin: 1rem 1rem;
   font-family: "Outfit", sans-serif;
   text-align: center;
@@ -37,14 +37,14 @@ body div.container section.card section.text {
   flex-direction: column;
   justify-content: space-evenly;
 }
-body div.container section.card section.text p.title {
+body main div.container section.card section.text h1 {
   font-weight: 700;
   font-size: 1.5rem;
   color: hsl(218, 44%, 22%);
   line-height: 1.75rem;
   margin-top: -1rem;
 }
-body div.container section.card section.text p.content {
+body main div.container section.card section.text p.content {
   font-weight: 400;
   color: hsl(220, 15%, 55%);
 }/*# sourceMappingURL=style.css.map */
