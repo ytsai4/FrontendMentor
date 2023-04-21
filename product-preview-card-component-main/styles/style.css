@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: hsl(30, 38%, 92%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section.card {
+  background-color: hsl(0, 0%, 100%);
+  width: 660px;
+  height: 510px;
+  display: flex;
+  border-radius: 0.5rem;
+}
+main section.card picture {
+  flex: 1 1 50%;
+}
+main section.card picture img.cap-photo {
+  width: 100%;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+main section.card article {
+  flex: 1 1 50%;
+  padding: 2rem;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main section.card article h1 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 0.3rem;
+  margin-bottom: -1rem;
+}
+main section.card article h2 {
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  font-family: "Fraunces", serif;
+}
+main section.card article p {
+  color: hsl(228, 12%, 48%);
+  line-height: 1.5rem;
+  font-weight: 550;
+}
+main section.card article section.price {
+  display: flex;
+  color: black;
+  align-items: center;
+}
+main section.card article section.price p.on-sale {
+  font-size: 2.25rem;
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+  flex: 3 1 60%;
+}
+main section.card article section.price p.original {
+  flex: 2 1 40%;
+  font-size: 0.9rem;
+  text-decoration: line-through;
+  text-decoration-thickness: 0.1rem;
+}
+main section.card article button {
+  border: none;
+  border-radius: 0.5rem;
+  background-color: hsl(158, 36%, 37%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section.card article button span {
+  font-size: 1rem;
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  line-height: 3.25rem;
+}
+main section.card article button img.icon-cart {
+  height: 1.25rem;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 400px) {
+  main section.card {
+    max-width: 350px;
+    min-height: 610px;
+    flex-direction: column;
+  }
+  main section.card picture {
+    flex: 0 1 230px;
+  }
+  main section.card picture img.cap-photo {
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  main section.card article {
+    flex: 1 1 380px;
+    justify-content: space-between;
+    padding: 1rem 1.45rem;
+  }
+  main section.card article h1 {
+    margin: 0;
+  }
+  main section.card article h2 {
+    font-size: 1.9rem;
+    line-height: 1.9rem;
+  }
+  main section.card article p {
+    font-size: 0.9rem;
+  }
+  main section.card article section.price p.on-sale {
+    font-size: 1.9rem;
+    flex: 1 1 50%;
+  }
+  main section.card article section.price p.original {
+    font-size: 0.8rem;
+    flex: 1 1 50%;
+  }
+  main section.card article button span {
+    line-height: 2.65rem;
+    font-size: 0.9rem;
+  }
+}/*# sourceMappingURL=style.css.map */

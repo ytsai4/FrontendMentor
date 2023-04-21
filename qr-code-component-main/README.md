@@ -6,6 +6,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
@@ -17,6 +18,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![desktop](./screenshots/screenshot-desktop.png)
 ![mobile](./screenshots/screenshot-mobile.png)
+
+### Links
+
+- Live Site URL: [QR code](https://ytsai4.github.io/FrontendMentor/qr-code-component-main/)
 
 ## My process
 

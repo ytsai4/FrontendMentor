@@ -11,6 +11,7 @@ These are solutions to [challenges on Frontend Mentor](https://www.frontendmento
 ## Challenges
 
 ### QR code component
+
 - [QR code component](https://github.com/ytsai4/FrontendMentor/tree/master/qr-code-component-main)
 
 ## Author
