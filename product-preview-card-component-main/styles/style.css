@@ -15,8 +15,8 @@ main {
 }
 main section.card {
   background-color: hsl(0, 0%, 100%);
-  width: 660px;
-  height: 510px;
+  width: 630px;
+  height: 472px;
   display: flex;
   border-radius: 0.5rem;
 }
@@ -34,11 +34,11 @@ main section.card article {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  color: hsl(228, 12%, 48%);
 }
 main section.card article h1 {
   font-size: 0.8rem;
   font-weight: 400;
-  color: hsl(228, 12%, 48%);
   letter-spacing: 0.3rem;
   margin-bottom: -1rem;
 }
@@ -47,15 +47,14 @@ main section.card article h2 {
   line-height: 2.25rem;
   font-weight: 700;
   font-family: "Fraunces", serif;
+  color: hsl(212, 21%, 14%);
 }
 main section.card article p {
-  color: hsl(228, 12%, 48%);
   line-height: 1.5rem;
   font-weight: 550;
 }
 main section.card article section.price {
   display: flex;
-  color: black;
   align-items: center;
 }
 main section.card article section.price p.on-sale {
@@ -77,6 +76,10 @@ main section.card article button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+main section.card article button:hover {
+  background-color: hsl(159, 38%, 13%);
+  cursor: pointer;
 }
 main section.card article button span {
   font-size: 1rem;

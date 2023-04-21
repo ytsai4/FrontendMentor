@@ -18,8 +18,8 @@ main {
   align-items: center;
   section.card {
     background-color: $White;
-    width: 660px;
-    height: 510px;
+    width: 630px;
+    height: 472px;
     display: flex;
     border-radius: 0.5rem;
     picture {
@@ -36,10 +36,11 @@ main {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      color: $Dark-grayish-blue;
       h1 {
         font-size: 0.8rem;
         font-weight: 400;
-        color: $Dark-grayish-blue;
+
         letter-spacing: 0.3rem;
         margin-bottom: -1rem;
       }
@@ -48,15 +49,14 @@ main {
         line-height: 2.25rem;
         font-weight: 700;
         font-family: "Fraunces", serif;
+        color: $Very-dark-blue;
       }
       p {
-        color: $Dark-grayish-blue;
         line-height: 1.5rem;
         font-weight: 550;
       }
       section.price {
         display: flex;
-        color: black;
         align-items: center;
         p.on-sale {
           font-size: 2.25rem;
@@ -78,6 +78,10 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
+        &:hover {
+          background-color: hsl(159, 38%, 13%);
+          cursor: pointer;
+        }
         span {
           font-size: 1rem;
           color: $White;

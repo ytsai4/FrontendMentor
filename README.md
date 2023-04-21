@@ -6,6 +6,7 @@ These are solutions to [challenges on Frontend Mentor](https://www.frontendmento
 
 - [Challenges](#challenges)
   - [QR code component](#qr-code-component)
+  - [Product preview card component](#product-preview-card-component)
 - [Author](#author)
 
 ## Challenges
@@ -13,6 +14,10 @@ These are solutions to [challenges on Frontend Mentor](https://www.frontendmento
 ### QR code component
 
 - [QR code component](https://github.com/ytsai4/FrontendMentor/tree/master/qr-code-component-main)
+
+### Product preview card component
+
+- [Product preview card component](https://github.com/ytsai4/FrontendMentor/tree/master/product-preview-card-component-main)
 
 ## Author
 
